@@ -1,0 +1,23 @@
+{
+  "version": "0.1.1",
+  "canonical_profile_id": "urn:otac:canon:2025-11-26:jcs-cbor-v1",
+  "canonical_hash_alg": "SHA-256",
+  "policy_id": "POLICY-GENESIS",
+  "sovereign_time": "2025-11-26T12:00:00Z",
+  "identity_anchor": "did:nq:genesis",
+  "prev_hash_link": "0000000000000000000000000000000000000000000000000000000000000000",
+  "evidence_vector": {
+    "type": "genesis",
+    "note": "first OTAC ever"
+  },
+  "policy_digest": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+  "quantum_entropy_provenance": "qcore:v1:health:ok",
+  "pqc_signature": {
+    "alg": "ML-DSA",
+    "key_format": "COSE",
+    "key_id": "GENESIS-KEY",
+    "pubkey_fingerprint": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "sig": "4b7e7b2e5f7b5d7c6a9d4e2f1a8b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2"
+  },
+  "tac_id": "urn:otac:sha-256:315c458d41c9a4a7bf36e59825fd3178c9a5e23246a42b03f9cb10f2ba74e196" 
+}

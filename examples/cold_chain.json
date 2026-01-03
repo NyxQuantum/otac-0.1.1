@@ -1,0 +1,60 @@
+{
+  "version": "0.1.1",
+  "canonical_profile_id": "urn:otac:canon:2025-11-26:jcs-cbor-v1",
+  "canonical_hash_alg": "SHA-256",
+  "policy_id": "POLICY-COLD-CHAIN-MDR",
+  "sovereign_time": "2025-11-26T12:15:00Z",
+  "identity_anchor": "did:nq:cold-chain:mdr:shipment-42",
+  "prev_hash_link": "urn:otac:sha-256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "evidence_vector": {
+    "type": "cold_chain",
+    "spec": "mdr:cold-chain:v1",
+    "shipment_id": "MDR-SHIPMENT-42",
+    "product": {
+      "gtin": "00312345123459",
+      "description": "mRNA vaccine v3",
+      "batch_id": "BATCH-2025-11-20-A"
+    },
+    "lane": {
+      "origin": "ES-BCN-0001",
+      "destination": "DE-BER-0007",
+      "carrier": "SYNC-LOGISTICS-001"
+    },
+    "temperature_trace": [
+      {
+        "probe_id": "SENSOR-CRATE-01",
+        "timestamp": "2025-11-26T09:00:00Z",
+        "value_c": -69.8,
+        "unit": "C"
+      },
+      {
+        "probe_id": "SENSOR-CRATE-01",
+        "timestamp": "2025-11-26T10:30:00Z",
+        "value_c": -69.9,
+        "unit": "C"
+      },
+      {
+        "probe_id": "SENSOR-CRATE-01",
+        "timestamp": "2025-11-26T12:00:00Z",
+        "value_c": -69.7,
+        "unit": "C"
+      }
+    ],
+    "compliance": {
+      "profile": "MDR-EU-COLD-CHAIN-V1",
+      "min_c": -70.5,
+      "max_c": -69.5,
+      "status": "IN_SPEC"
+    }
+  },
+  "policy_digest": "8888888888888888888888888888888888888888888888888888888888888888",
+  "quantum_entropy_provenance": "qcore:v1:health:ok",
+  "pqc_signature": {
+    "alg": "ML-DSA",
+    "key_format": "COSE",
+    "key_id": "MDR-COLD-CHAIN-KEY",
+    "pubkey_fingerprint": "9999999999999999999999999999999999999999999999999999999999999999",
+    "sig": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "tac_id": "urn:otac:sha-256:62e3bc08277f165437d309fdc670ae83127c0a0b2b08187cbe86d3050bcd3890"
+}

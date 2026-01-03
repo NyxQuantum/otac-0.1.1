@@ -1,0 +1,23 @@
+{
+  "version": "0.1.1",
+  "canonical_profile_id": "urn:otac:canon:2025-11-26:jcs-cbor-v1",
+  "canonical_hash_alg": "SHA-256",
+  "policy_id": "POLICY-EXAMPLE-A",
+  "sovereign_time": "2025-11-26T12:00:00Z",
+  "identity_anchor": "did:example:ABC123",
+  "prev_hash_link": "0000000000000000000000000000000000000000000000000000000000000000",
+  "evidence_vector": {
+    "type": "demo",
+    "hash": "0123456789abcdef"
+  },
+  "policy_digest": "1111111111111111111111111111111111111111111111111111111111111111",
+  "quantum_entropy_provenance": "qcore:v1:health:ok",
+  "pqc_signature": {
+    "alg": "ML-DSA",
+    "key_format": "COSE",
+    "key_id": "KEY1",
+    "pubkey_fingerprint": "2222222222222222222222222222222222222222222222222222222222222222",
+    "sig": "33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+  },
+  "tac_id": "urn:otac:sha-256:b59cc844c98f6e1dc7c9852fef53f1cf5ecd4cdde9b814ffffcf78acb331bf6b"
+}

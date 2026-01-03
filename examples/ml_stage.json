@@ -1,0 +1,37 @@
+{
+  "version": "0.1.1",
+  "canonical_profile_id": "urn:otac:canon:2025-11-26:jcs-cbor-v1",
+  "canonical_hash_alg": "SHA-256",
+  "policy_id": "POLICY-ML-STAGE-DATASET-GUARD",
+  "sovereign_time": "2025-11-26T12:10:00Z",
+  "identity_anchor": "did:nq:ml:dataset-guard:pipeline-1",
+  "prev_hash_link": "urn:otac:sha-256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evidence_vector": {
+    "type": "ml_stage",
+    "spec": "mlops:dataset-guard:v1",
+    "stage_id": "dataset-guard:stage:ingestion",
+    "pipeline_id": "ml:pipeline:fraud-detection:v3",
+    "input_dataset": {
+      "uri": "s3://bank-fraud/raw/2025-11-25/",
+      "rows": 1250043,
+      "schema_fingerprint": "4444444444444444444444444444444444444444444444444444444444444444"
+    },
+    "checks": {
+      "pii_scan": "PASS",
+      "anomaly_scan": "PASS",
+      "data_drift": "ACCEPTABLE",
+      "policy_profile": "GDPR-BANKING-EU-V1",
+      "run_id": "dataset-guard:run:2025-11-26T12:09:30Z"
+    }
+  },
+  "policy_digest": "5555555555555555555555555555555555555555555555555555555555555555",
+  "quantum_entropy_provenance": "qcore:v1:health:ok",
+  "pqc_signature": {
+    "alg": "ML-DSA",
+    "key_format": "COSE",
+    "key_id": "DATASET-GUARD-KEY",
+    "pubkey_fingerprint": "6666666666666666666666666666666666666666666666666666666666666666",
+    "sig": "77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777"
+  },
+  "tac_id": "urn:otac:sha-256:2946e5cb22ea08c9e5e4ad1287f1e0fd2af32894f6810884dbfc16a5463c9d5a"
+}
