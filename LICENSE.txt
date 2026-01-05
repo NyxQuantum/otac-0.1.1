@@ -1,25 +1,21 @@
+MIT License
 
-NyxQuantum — OTAC 0.1.1 Defensive Publication — FRAND‑Z License
-Date: 26 Nov 2025
+Copyright (c) 2025 Sigitas Andrijauskas Sumlinskas (NyxQuantum project)
 
-1. Grant
-NyxQuantum (“Licensor”) hereby offers a worldwide, royalty‑free, non‑exclusive, irrevocable (except as set forth below) license under its Essential Claims to make, use, sell, offer for sale, import, export, and otherwise implement the OTAC 0.1.1 specification, but only to the extent that such implementation conforms to the Required portions of the OTAC 0.1.1 specification.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. Reciprocity
-This license is conditioned on reciprocal Fair, Reasonable, And Non‑Discriminatory, Zero‑royalty (“FRAND‑Z”) licensing by each Licensee of its own Essential Claims that are necessarily infringed by a conforming implementation of OTAC 0.1.1. By practicing this specification, Licensee grants to all other implementers a worldwide, royalty‑free, non‑exclusive, irrevocable license under such Essential Claims for OTAC 0.1.1‑conforming implementations.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. Defensive Suspension
-The license granted herein automatically suspends with respect to any entity (“Aggressor”) that initiates or maintains a patent infringement action alleging that an OTAC 0.1.1‑conforming implementation infringes any Essential Claim owned or controlled by the Aggressor. Suspension applies only for the duration of such action and only with respect to the Aggressor and its controlled affiliates.
-
-4. No Trademark / No Endorsement
-This license does not grant any rights to use NyxQuantum’s names, logos, or trademarks. Reference to OTAC 0.1.1 does not imply endorsement by NyxQuantum of any product or implementation.
-
-5. No Warranty / Limitation of Liability
-THIS SPECIFICATION AND THE LICENSED RIGHTS ARE PROVIDED “AS IS” AND “WITH ALL FAULTS.” LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT, OR TITLE. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO THIS SPECIFICATION OR ITS IMPLEMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-6. Definitions
-“Essential Claims” means those patent claims, now or hereafter owned or controlled by Licensor, that are necessarily infringed by implementing the Required portions of the OTAC 0.1.1 specification, where such infringement cannot be avoided by a technically reasonable, compliant implementation. Essential Claims do not include claims that would be infringed only by: (a) reference implementations, examples, or optional features not designated as Required; or (b) enabling technologies, manufacturing methods, or other implementations not strictly necessary to conform to OTAC 0.1.1.
-
-7. Governing Law (Optional)
-This license may be governed by and construed in accordance with the laws of a jurisdiction selected by NyxQuantum in any future non‑provisional filings or standardization documents, excluding its conflict‑of‑law rules.
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

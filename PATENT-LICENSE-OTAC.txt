@@ -1,0 +1,178 @@
+NyxQuantum FRAND-Z Patent License for OTAC 0.1.1  
+Version 1.2 — January 2026
+
+IMPORTANT NOTICE  
+This document is not legal advice. It is a permissive patent license intended to
+facilitate open, royalty-free adoption of the OTAC 0.1.1 specification and
+interoperable implementations.
+
+1. DEFINITIONS
+
+“Licensor” means the owner of the patent rights identified with this license,
+currently Sigitas Andrijauskas Sumlinskas (acting under the NyxQuantum project /
+NQ portfolio), and any successor that explicitly adopts this license.
+
+“Licensee” means any natural or legal person who implements, uses, sells, offers
+for sale, imports, or otherwise practices the OTAC 0.1.1 Specification and relies
+on this license.
+
+“Affiliate” of a party means any entity that directly or indirectly controls, is
+controlled by, or is under common control with that party, where “control”
+means ownership or control, directly or indirectly, of more than fifty percent
+(50%) of the voting interests of the entity or the power to direct its
+management and policies.
+
+“OTAC 0.1.1 Specification” means the technical specification identified as
+“OTAC 0.1.1 — Canonical Temporal Attestation Capsule” (including its Required
+portions as published by the Licensor) and any normative errata or updates that
+Licensor explicitly designates as covered by this license.
+
+“Conforming Implementation” means any implementation, in whole or in part, that
+implements all Required features of the OTAC 0.1.1 Specification as published by
+Licensor, with only such deviations as are unavoidable due to defects, omissions,
+or ambiguities in the specification itself.
+
+“Essential Claims” means those patent claims, now or hereafter owned or
+controlled by Licensor, that are necessarily infringed by implementing the
+Required portions of the OTAC 0.1.1 Specification in a Conforming Implementation.
+Essential Claims do not include (a) claims covering solely implementations of
+optional or non-normative features, (b) claims that would be infringed only as a
+result of the manufacture or use of enabling technologies, reference
+implementations, or other systems not required by the OTAC 0.1.1 Specification,
+or (c) any claim that would be infringed only by reason of the combination of a
+Conforming Implementation with other hardware or software, where such combination
+is not required by the OTAC 0.1.1 Specification.
+
+“Aggressor” means any Licensee (including its Affiliates) that initiates or
+maintains a Patent Assertion (as defined below) against Licensor or any other
+implementer of OTAC 0.1.1.
+
+“Patent Assertion” means any lawsuit, counterclaim (other than a purely defensive
+counterclaim to a prior suit), administrative action, or similar proceeding
+alleging that the making, using, selling, offering for sale, importing, or other
+exploitation of an OTAC 0.1.1 Conforming Implementation infringes one or more
+patents.
+
+“Contributor” means any person or entity who submits proposed changes, test
+vectors, code, or other material to Licensor for inclusion in the OTAC 0.1.1
+Specification or reference artifacts.
+
+2. GRANT OF LICENSE
+
+Subject to the conditions and limitations set forth in this license, Licensor
+hereby grants to each Licensee a worldwide, royalty-free, non-exclusive,
+non-transferable (except in connection with the transfer of the relevant business
+or assets), irrevocable (except as provided in Sections 3 and 4) patent license
+under Licensor’s Essential Claims to make, have made, use, sell, offer for sale,
+import, and otherwise exploit Conforming Implementations of OTAC 0.1.1.
+
+This grant applies only to Essential Claims and only to the extent that such
+claims are necessarily infringed by a Conforming Implementation of OTAC 0.1.1.
+No rights are granted under any other patents, patent applications, or claims of
+Licensor.
+
+3. FRAND-Z RECIPROCITY
+
+This license is conditioned on Licensee and its Affiliates offering, with respect
+to their own Essential Claims for OTAC 0.1.1, at least equally favorable terms:
+a worldwide, royalty-free, non-exclusive license, with no upfront or running
+monetary royalties (“FRAND-Z” terms), to Licensor and to any other implementer of
+a Conforming Implementation.
+
+If a Licensee or its Affiliate refuses to grant such FRAND-Z terms for its
+Essential Claims covering OTAC 0.1.1, Licensor may treat such entity as an
+Aggressor, and the license rights under Section 2 shall be subject to suspension
+as provided in Section 4 with respect to that entity.
+
+4. DEFENSIVE SUSPENSION
+
+If a Licensee (or any of its Affiliates) becomes an Aggressor by initiating or
+maintaining a Patent Assertion against Licensor or any other implementer based on
+a Conforming Implementation of OTAC 0.1.1, then, effective as of the date such
+Patent Assertion is filed, all rights granted to that Aggressor under this
+license shall automatically suspend for the duration of the Patent Assertion,
+solely with respect to that Aggressor and its Affiliates.
+
+The suspension described in this Section does not affect the rights of other
+Licensees that are not Aggressors.
+
+If the Aggressor permanently withdraws, dismisses, or finally resolves the Patent
+Assertion without a finding of infringement against a Conforming Implementation,
+the suspended rights under this license shall automatically be restored as of the
+effective date of such withdrawal, dismissal, or final resolution.
+
+For clarity, a counterclaim that is asserted solely in response to a prior patent
+infringement lawsuit and that is not the first assertion of patent infringement
+by the counterclaimant shall not, by itself, cause suspension under this Section.
+
+5. SCOPE AND RESERVATIONS
+
+This license:
+
+(a) covers only Essential Claims that Licensor owns or controls at the time, and
+only to the extent such claims are necessarily infringed by a Conforming
+Implementation of OTAC 0.1.1;
+
+(b) does not grant any rights in or to any trade secrets, copyrights,
+trademarks, or other intellectual property rights of Licensor, except as
+expressly stated;
+
+(c) does not grant any rights with respect to other specifications, protocols,
+or products that may be referenced in the OTAC 0.1.1 Specification as examples,
+informative references, or optional integrations;
+
+(d) does not obligate Licensor to disclose all patents or patent applications
+that may be relevant to OTAC 0.1.1, nor to update or maintain the specification.
+
+6. NO TRADEMARK RIGHTS; NO ENDORSEMENT
+
+Nothing in this license grants any rights to use Licensor’s or NyxQuantum’s
+names, logos, or trademarks, whether in connection with an implementation of
+OTAC 0.1.1 or otherwise. Any such use requires a separate written agreement.
+
+Use of the OTAC 0.1.1 Specification or this license does not imply endorsement,
+certification, or compliance approval by Licensor or by NyxQuantum for any
+product or implementation.
+
+7. NO WARRANTY; LIMITATION OF LIABILITY
+
+THE OTAC 0.1.1 SPECIFICATION, THIS LICENSE, AND ANY RELATED MATERIALS ARE
+PROVIDED “AS IS” AND “WITH ALL FAULTS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THE SPECIFICATION OR IMPLEMENTATION OF OTAC 0.1.1,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+8. CONTRIBUTIONS
+
+By submitting any proposed change, clarification, test vector, code, or other
+material to Licensor for possible inclusion in the OTAC 0.1.1 Specification or
+its reference artifacts, the Contributor:
+
+(a) represents that it has the necessary rights to make such submission, and
+
+(b) grants to Licensor and to all Licensees a license, under Contributor’s
+Essential Claims that would be necessarily infringed by implementing such
+contribution as part of a Conforming Implementation, on the same FRAND-Z terms
+as set out in Sections 2 and 3 above.
+
+9. GOVERNING LAW; SEVERABILITY
+
+Unless Licensor specifies otherwise in an accompanying notice, this license shall
+be governed by and construed in accordance with the laws of Spain, excluding its
+conflict-of-law rules. Licensor may, for specific deployments or translations of
+this license, designate another jurisdiction in a written notice accompanying
+such deployment or translation.
+
+If any provision of this license is held to be invalid or unenforceable, the
+remaining provisions shall remain in full force and effect, and the license shall
+be interpreted so as to give maximum effect to the intent of the parties as
+expressed herein.
+
+END OF LICENSE
