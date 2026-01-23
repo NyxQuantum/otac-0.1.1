@@ -3,6 +3,8 @@ from pathlib import Path
 
 from tools.verify_standalone import canonicalize_json, hash_bytes
 
+
+
 BASE_DIR = Path(__file__).resolve().parents[1]
 EXAMPLES_DIR = BASE_DIR / "examples"
 
@@ -24,7 +26,8 @@ def test_tac_id_matches_hash_genesis():
     # Igual que en verify_standalone.verify: ignoramos tac_id
     tmp = {k: v for k, v in data.items() if k != "tac_id"}
 
-    canonical = canonicalize_json(tmp).encode("utf-8")
+    canonical = canonicalize_json(tmp)
+
     h = hash_bytes(canonical, data["canonical_hash_alg"])
 
     assert data["tac_id"] == f"urn:otac:{data['canonical_hash_alg'].lower()}:{h}"
