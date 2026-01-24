@@ -5,6 +5,7 @@ pip install cbor2
 """
 
 import json
+import rfc8785
 import argparse
 import hashlib
 import cbor2  # reservado para futuros usos CBOR deterministas
@@ -13,22 +14,19 @@ import sys
 
 def canonicalize(obj):
     """
-    Canonicalización JSON tipo JCS:
-    - claves ordenadas
-    - sin espacios extra
-    - UTF-8 sin forzar ASCII
+    JSON Canonicalization Scheme (RFC 8785).
+    Devuelve bytes UTF-8 canónicos.
     """
-    return json.dumps(
-        obj,
-        separators=(",", ":"),  # sin espacios
-        sort_keys=True,
-        ensure_ascii=False,
-    )
+    return rfc8785.dumps(obj)
+
+
+
 
 
 def canonicalize_json(data):
-    """Wrapper exportado para que los tests usen el mismo canon."""
-    return canonicalize(data)
+    """Convenience: canonical bytes de un dict JSON."""
+    return canonicalize(data)  # canonicalize ya devuelve bytes
+
 
 
 def load(path):
@@ -37,8 +35,9 @@ def load(path):
 
 
 def canonical_bytes(obj):
-    """JSON Canonicalization Scheme (RFC 8785-style)."""
-    return canonicalize(obj).encode("utf-8")
+    """JSON Canonicalization Scheme (RFC 8785)."""
+    return canonicalize(obj)
+
 
 
 def hash_bytes(b, alg="sha-256"):
@@ -56,7 +55,6 @@ def verify(path):
     chash = hash_bytes(cbytes, data["canonical_hash_alg"])
     expected_tac = f"urn:otac:{data['canonical_hash_alg'].lower()}:{chash}"
 
-    print("CANONICAL_BYTES_HEX:", cbytes.hex())
     print("HASH:", chash)
     print("TAC_ID:", expected_tac)
     print("OK" if expected_tac == data.get("tac_id") else "X TAC mismatch")
