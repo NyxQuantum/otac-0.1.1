@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""
-OTAC 0.1.1 standalone verifier  (JCS + deterministic CBOR)
-pip install cbor2
+"""Limited OTAC 0.1.x JCS/SHA-256 ``tac_id`` checker.
+
+This historical prototype does not verify signatures, trust, time, CBOR,
+continuity, policy, or sharding. See ``ERRATA-0.1.x.md``.
 """
 
 import json

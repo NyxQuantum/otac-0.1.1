@@ -1,10 +1,14 @@
-# OTAC 0.1.1 – Post-Quantum Evidence Capsule
+# OTAC 0.1.x public prototype tools
 
-> 2 kB JSON/CBOR blob that a court, PLC or regulator can verify offline – and that survives the quantum era.
+`verify_standalone.py` is a limited identifier checker. It accepts a JSON file
+path, removes the top-level `tac_id`, serializes the remaining object with JCS,
+calculates the requested hash, and compares the derived identifier with the
+supplied `tac_id`.
 
 ```bash
-# test from GitHub (no clone) – test in ~15 s
-curl -sL https://raw.githubusercontent.com/NyxQuantum/otac/main/examples/genesis.json | python3 tools/verify_standalone.py
+python -m tools.verify_standalone examples/genesis.json
+```
 
-# test locally after cloning – also ~15 s
-python3 tools/verify_standalone.py examples/genesis.json
+`OK` means only that the identifier matches. The tool does not verify a digital
+signature, signer trust, time, policy, chain continuity, CBOR, or sharding. See
+[`../ERRATA-0.1.x.md`](../ERRATA-0.1.x.md).
