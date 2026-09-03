@@ -1,5 +1,10 @@
 OTAC 0.1.1 — Canonical Temporal Attestation Capsule (JCS/CBOR, PQC) with Test Vectors and FRAND‑Z Terms
 
+> **Historical draft notice:** This legacy document is preserved for
+> traceability and contains known normative and implementation gaps. It is not
+> a production or conformance claim. Read
+> [`ERRATA-0.1.x.md`](ERRATA-0.1.x.md) before use.
+
 VERSION: 0.1.1 (Defensive Publication Draft)
 DATE: 26 Nov 2025
 AUTHORS: Project NyxQuantum (Sigitas Andrijauskas Sumlinskas, et al.)
