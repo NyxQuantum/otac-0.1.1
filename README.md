@@ -6,6 +6,11 @@
 > draft and prototype. It is not a production implementation, a conformance
 > claim, or the current design baseline for future OTAC work. Read
 > [`ERRATA-0.1.x.md`](ERRATA-0.1.x.md) before using the specification or code.
+>
+> The final project assessment and closure decision are recorded in
+> [`OTAC-0.2-TECHNICAL-ASSESSMENT.md`](OTAC-0.2-TECHNICAL-ASSESSMENT.md).
+> Despite its filename, that document is a research note, not an OTAC 0.2
+> specification or protocol release.
 
 This repository demonstrates a small part of the OTAC concept: deterministic
 JSON serialization with JCS (RFC 8785), SHA-256 hashing, and comparison of a
@@ -79,6 +84,8 @@ rewritten by this clarification.
 - `OTAC-0.1.2.md` - historical 0.1.2 specification draft.
 - `OTAC-0.1.1.md` and `OTAC-0.1.1.pdf` - legacy 0.1.1 draft.
 - `ERRATA-0.1.x.md` - known normative and implementation limitations.
+- `OTAC-0.2-TECHNICAL-ASSESSMENT.md` - final assessment and project closure;
+  not a specification or release.
 - `tools/verify_standalone.py` - limited JCS/SHA-256 identifier checker.
 - `scripts/otac-cli.py` - non-functional signing/verifying CLI placeholder.
 - `examples/` - illustrative JSON capsules.
@@ -91,9 +98,10 @@ rewritten by this clarification.
 
 ## Scope and future work
 
-OTAC 0.1.x is frozen as a historical line. Future OTAC work is being designed
-separately and must not be inferred from this repository. No roadmap date or
-future capability is promised here.
+OTAC 0.1.x is frozen as a historical line. OTAC is closed as an active
+protocol and product-development line, and no OTAC 0.2 protocol release is
+planned. The technical assessment preserves the useful lessons and explains
+the closure decision. No roadmap or future capability is promised here.
 
 ## Security
 
