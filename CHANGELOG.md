@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased - Project closure
+
+- Add `OTAC-0.2-TECHNICAL-ASSESSMENT.md`, a research note documenting the
+  technical assessment and final project-closure decision.
+- Close OTAC as an active protocol and product-development line.
+- Clarify that the `0.2` filename does not identify a specification or protocol
+  release.
+- Keep OTAC 0.1.x frozen as a historical experimental prototype.
+- Preserve historical tags and documents; limit future maintenance to factual,
+  security, link, and repository-hygiene corrections.
+
 ## Unreleased - Public-scope clarification
 
 - Reclassify OTAC 0.1.x as an experimental historical draft and prototype.
